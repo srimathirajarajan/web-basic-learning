@@ -1,0 +1,101 @@
+<html lange="en">
+<head>
+<title>CSS template</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+	faont-family:Arial,Helvetica,sans-serif;
+}
+/*style the header*/
+header{
+ background-color:#666;
+ font-style:italic;
+ padding:30px;
+ text-align:center;
+ font-size:35px;
+ color:white;
+}
+/*create two columns/boxes that floats next to each other*/
+nav{
+ float:left;
+ width:30%
+ height:300px;/*only for demonstration,should be removed*/
+ background:#ccc;
+ padding:20px;
+}
+/*style the list inside the menu*/
+nav ul{
+ list-style-type:none;
+ padding: 100px;
+}
+article{
+ float:left;
+ padding:20px;
+ width:70%
+ background-color:#f1f1f1;
+ height:300px;/*only for demonstration,should be removed*/
+}
+/*clear floats after the columns*/
+section:after{
+ content:"";
+ display:table;
+ clear:both;
+}
+/*style the footer*/
+footer{
+ background-color:#777;
+ padding:10px;
+ text align:center;
+ color:white;
+}
+
+/*responsive layout-makes the two columns/boxes satck on top of each @ media(max-width:600px){
+nav,article{
+ width:100%
+ height:auto;
+}
+}
+</style>
+</head>
+<body>
+
+
+<center><h2>OK KANMANI</h2></center>
+<p>Two youngsters adhi and thara are attracted to each other when they meet
+at a weeding .</p>
+ <p>Since they do not belive in marriage they decide to live together.
+    what follows the crux of the story.</p>
+
+<header>
+ <h2>Adhi_x_Thara</h2>
+</header>
+
+<section>
+ <nav>
+  <ul>
+   <li><a href="#">about the movie</a></li>
+   <li><a href="#">First meet</a></li>
+   <li><a href="#">Relationship</a></li>
+   <li><a href="#">Marrigae</a></li>
+ </ul>
+</nav>
+
+<article>
+<h1>About the movie</h1>
+<h1>About the movie</h1>
+
+ <p>London is the captial city of Englad. It is the most popular city</p>
+ <p>standing on the river Thames,London has been a major settlement</p>
+</article>
+</section>
+
+
+<footer>
+ <p>Footer</p>
+</footer>
+</body>
+</html>
+
+ 
