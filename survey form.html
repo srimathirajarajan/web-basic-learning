@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>
+        Survey Form
+    </title>
+    <style>
+        body {
+            background-color: #6050dc;
+            font-family: Verdana;
+            text-align: center;
+        }
+        form {
+            background-color: rgb(191, 232, 11);
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .form-body {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .form-control label {
+            display: block;
+            margin-bottom: 10px
+        }
+     </style>   
+
+
+<body>
+    <form>
+        <div class="form-body">
+        <p><i><label>Name : </label></i>  <input type="text"placeholder="enter your name"size="25"required>
+        <p><i><label>email id : </label></i> <input type="mail"placeholder="enter your mail id"required>
+        <p><i><label>age : </label></i>   <input type="number" size="5" placeholder="enter your age" >
+        </p>
+        </div>
+        <div class="form-body">
+        <label><i>Role</i></label>
+        <select id="Role" name="label-role">
+        <option value="student">student</option>
+        <option value="teachers">teachers</option>
+        <option value="professionals">professionals</option>
+        </select></br></br>
+        </div>
+            <div class="form-body">
+            <label>
+                <i>Interested programme : </i>
+            </label>
+            <label>
+                <input type="radio"
+                       id="1"
+                       name="programme">Frontend</input>
+            </label>
+            <label>
+                <input type="radio"
+                       id="2"
+                       name="programme">Backend</input>
+            </label>
+            <label>
+                <input type="radio"
+                       id="3"
+                       name="programme">Full stack</input>
+            </label>
+        </div>
+        <div class="form-body" >
+            <label><i>Known Programming Language : </i></label>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">C</input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">C++</input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">Java</input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">Python</input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">JavaScript</input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">React</input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">HTML </input></label><br>
+            <label for="known">
+                <input type="checkbox"
+                       name="known">CSS</input></label><br>
+            </div>
+            <div  class="form-body">
+                <p><i>suggestion :    <textarea placeholder="enter your suggestion"></textarea>
+                 </p>
+            </div>
+            <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>
+
